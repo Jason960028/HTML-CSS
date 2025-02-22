@@ -15,6 +15,20 @@
     margin-bottom: 0%;
 }
 
+.blog-profile {
+    float: left;
+    width:50px;
+    border-radius:50%;
+}
+
+.blog-name {
+    float:left;
+}
+
+.blog-text {
+    clear:both;
+}
+
 .prifileDetail {
     font-size: 1.1rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -44,13 +58,29 @@ span {
 .container {
     display: block;
     width:800px;
-
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .header {
     width:100%;
     height:100px;
     background: aquamarine
+}
+
+.blog-content {
+    float:left;
+    width:80%;
+    height:200px;
+    
+}
+
+.blog-image {
+    float:left;
+    width:20%;
+    height:200px;
+    
 }
 
 .left-menu {
