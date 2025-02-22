@@ -1,0 +1,77 @@
+
+.profilePic {
+    width: 200px; 
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.profileName {
+    font-size: 2rem;
+    font-family:'Courier New', Courier, monospace; 
+    color: blueviolet;
+    letter-spacing: 5px; 
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.prifileDetail {
+    font-size: 1.1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+span {
+    font-weight: 600;
+    color: red;
+}
+
+.aboutMe {
+    display:block;
+    background-color: cadetblue;
+    width:90%;
+    text-align: center;
+    margin:10px;
+    padding:10px;
+    border:4px solid black;
+    border-radius:10px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px red;
+}
+
+.container {
+    display: block;
+    width:800px;
+
+}
+
+.header {
+    width:100%;
+    height:100px;
+    background: aquamarine
+}
+
+.left-menu {
+    /* float:left; */
+    display:inline-block;
+    width: 20%;
+    height:400px;
+    background: cornflowerblue;
+}
+
+.right {
+    /* float:left; */
+    display:inline-block; /* inline-block은 div 박스를 내 크기 만큼만 차지하게 만들수 있다.*/
+    width:80%;
+    height: 400px;
+    background: coral;
+}
+
+.footer {
+    /* clear:both; */ 
+    width:100%;
+    height:100px;
+    background:gray;
+}
