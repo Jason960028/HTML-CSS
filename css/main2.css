@@ -1,0 +1,75 @@
+.main-background {
+    width:100%;
+    height:500px;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* filter:brightness(40%); */
+    padding: 1px; /*마진 콜랩스 땜에 패딩 좀 줘서 해결*/
+    text-align: center;
+    position: relative;
+}
+
+.main-title {
+    color:white;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.main-text {
+    color:white;
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left:100px;
+    text-align: center;
+}
+
+.main-button {
+    background-color: transparent;
+    border:0;
+    font-size: 25px;
+    color:white;
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    width: 150px;
+
+}   
+
+.main-button a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.main-button:hover {
+    color: blue;
+}
+
+.sub-box {
+    background: #eee;
+    width:80%;
+    height: 300px;
+    position:relative;
+    top: -50px;
+    margin: auto;
+    padding: 1px;
+}
+
+.sub-box h6 {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 50px;
+    margin-bottom: 1px;
+}
+
+.sub-box p {
+    text-align: center;
+    font-size: 15px;
+    padding:20px;
+}
