@@ -5,6 +5,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
     /* filter:brightness(40%); */
     padding: 1px; /*마진 콜랩스 땜에 패딩 좀 줘서 해결*/
     text-align: center;
