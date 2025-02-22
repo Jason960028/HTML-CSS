@@ -26,7 +26,21 @@
 }
 
 .blog-text {
-    clear:both;
+    
+}
+
+.nav-bar li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-bar a {
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
 }
 
 .prifileDetail {
