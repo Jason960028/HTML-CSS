@@ -1,3 +1,8 @@
+
+div {
+    box-sizing : border-box; /*박스의 폭은 border까지 포함입니다*/
+}
+
 .main-background {
     width:100%;
     height:500px;
@@ -60,11 +65,13 @@
     top: -50px;
     margin: auto;
     padding: 1px;
+    word-break:break-all;
 }
 
-.sub-box h6 {
+.sub-box h4 {
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
+    font-weight:800;
     margin-top: 50px;
     margin-bottom: 1px;
 }
@@ -72,5 +79,6 @@
 .sub-box p {
     text-align: center;
     font-size: 15px;
-    padding:20px;
+    padding-left:20px;
+    padding-right:20px;
 }
